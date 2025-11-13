@@ -1,0 +1,5 @@
+0	Communication
+1	Teamwork_Leadership
+2	Integrity
+3	Adaptability
+4	Job_Competency

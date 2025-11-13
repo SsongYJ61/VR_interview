@@ -1,0 +1,46 @@
+# Core web framework & API
+fastapi==0.120.0
+pydantic==2.6.1
+uvicorn==0.27.1
+python-multipart==0.0.9
+typing-extensions>=4.12.0
+python-dotenv==1.2.1
+requests>=2.32.2
+httpx==0.28.1
+
+# AI/ML - LangChain & LLM
+langchain==0.2.17
+langchain-community==0.2.19
+langchain-core>=0.2.43
+langchain-text-splitters>=0.2.4
+openai>=2.0.0
+
+# AI/ML - PyTorch & NLP
+# Pin PyTorch to 2.3.x for compatibility with quantized models and CUDA 12.1
+torch>=2.3.0,<2.5.0
+transformers>=4.40.0,<4.60.0
+tokenizers>=0.19.0
+safetensors>=0.4.0
+# KoBERT for Korean language model
+kobert_transformers>=0.6.0
+
+# AI/ML - Audio Processing
+gTTS==2.5.1
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# OCR & Document Processing
+pytesseract==0.3.10
+Pillow==10.2.0
+pdf2image==1.16.3
+fpdf2==2.7.8
+
+# Data & Visualization
+numpy>=1.26.0,<2.0.0
+
+# Web Automation (for testing/scraping)
+selenium>=4.0.0
+
+# System dependencies (install via OS package manager):
+# - tesseract-ocr (Ubuntu: sudo apt-get install tesseract-ocr tesseract-ocr-kor tesseract-ocr-eng)
+# - poppler-utils (Ubuntu: sudo apt-get install poppler-utils)
